@@ -1,8 +1,0 @@
-ros-hydro-husky-bringup (0.0.1-1raring) raring; urgency=high
-
-  * Catkinize package.
-  * First cut of a new install script.
-
- -- Mike Purvis <mpurvis@clearpathrobotics.com>  Fri, 13 Sep 2013 04:00:00 -0000
-
-

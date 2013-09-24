@@ -26,6 +26,13 @@ fi
 # Install the NavSat launchers if an NMEA GPS is attached.
 if [ -e /dev/clearpath/gps ]; then
   $install_pkg husky_bringup/launch/navsat_config --job husky-core --augment
+  COMPASS_YAML=/etc/ros/$ROS_DISTRO/imu_compass.yaml
+  if [ -e "$COMPASS_YAML" ]; then
+    echo "Compass yaml config already exists, skipping."
+  else 
+    echo "Installing compass yaml file to $COMPASS_YAML"
+    sudo cp "$(rospack find husky_bringup)/config/imu_compass.yaml" "$COMPASS_YAML"
+  fi
 fi
 
 # TODO: Automatically detect more standard peripherals.
