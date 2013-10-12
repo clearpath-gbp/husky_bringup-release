@@ -1,0 +1,12 @@
+Source: ros-hydro-husky-bringup
+Section: misc
+Priority: extra
+Maintainer: Mike Purvis <mpurvis@clearpathrobotics.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-roslaunch
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-husky-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-enu (>= 1.1.0), ros-hydro-husky-base (>= 0.0.4), ros-hydro-husky-description, ros-hydro-husky-teleop, ros-hydro-imu-compass, ros-hydro-nmea-comms (>= 0.0.3), ros-hydro-nmea-navsat-driver, ros-hydro-robot-pose-ekf, ros-hydro-robot-upstart, ros-hydro-sicktoolbox-wrapper, ros-hydro-tf, ros-hydro-um6
+Description: Installation for Husky
