@@ -2,6 +2,11 @@
 Changelog for package husky_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.2 (2015-02-12)
+------------------
+* Namespace fixes
+* Contributors: Paul Bovbel
+
 0.1.1 (2015-01-30)
 ------------------
 * Update website and authors
