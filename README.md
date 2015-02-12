@@ -1,3 +1,24 @@
+## husky_bringup (indigo) - 0.1.2-0
+
+The packages in the `husky_bringup` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo husky_bringup` on `Thu, 12 Feb 2015 23:06:22 -0000`
+
+The `husky_bringup` package was released.
+
+Version of package(s) in repository `husky_bringup`:
+- upstream repository: https://github.com/husky/husky_bringup.git
+- release repository: https://github.com/clearpath-gbp/husky_bringup-release.git
+- rosdistro version: `0.1.1-0`
+- old version: `0.1.1-0`
+- new version: `0.1.2-0`
+
+Versions of tools used:
+- bloom version: `0.5.18`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.1`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.36`
+
+
 ## husky_bringup (indigo) - 0.1.1-0
 
 The packages in the `husky_bringup` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo husky_bringup` on `Fri, 30 Jan 2015 16:37:55 -0000`
